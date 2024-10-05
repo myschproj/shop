@@ -256,7 +256,7 @@ const ProductsList: React.FC<IProductsListProps> = ({ products, onOpen, isLoadin
 
                     <div className={classes['chip-wrapper']}>
                       {discount && <Chip text={'Скидка  -' + discount.percent + '%'} mode={'highlighted'} />}
-                      {gender && <Chip text={'Пол: ' + gender.name.toLocaleLowerCase()} mode={'info'} />}
+                      {gender && <Chip text={'Тип: ' + gender.name.toLocaleLowerCase()} mode={'info'} />}
                     </div>
                   </td>
                   <td className={classes.cell}>{category.name}</td>
