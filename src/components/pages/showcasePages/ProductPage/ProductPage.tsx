@@ -29,7 +29,7 @@ const ProductPage: React.FC<IProductPageProps> = () => {
 
   const { id, name, description, image, brand, price, weight, discount, gender } = product;
   const chipText =
-    gender.url === 'male' ? 'Мужская коллекция' : gender.url === 'female' ? 'Женская коллекция' : 'Унисекс';
+    gender.url === 'atv' ? 'ATV' : gender.url === 'auto' ? 'Автомобильные' : 'Переносные';
   const isWished = wishlist.includes(id);
 
   const cartItem: CartItem = {
