@@ -1,17 +1,17 @@
 export const GENDER = [
     {
       id: '1',
-      name: 'Унисекс',
-      url: 'unisex',
+      name: 'Переносные',
+      url: 'handed',
     },
     {
       id: '2',
-      name: 'Женский',
-      url: 'female',
+      name: 'Автомобильные',
+      url: 'auto',
     },
     {
       id: '3',
-      name: 'Мужской',
-      url: 'male',
+      name: 'ATV',
+      url: 'atv',
     },
   ];
