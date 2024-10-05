@@ -22,15 +22,6 @@ const ShowcaseHeader: React.FC<IShowcaseHeaderProps> = () => {
         <Link to={`${PATHS.admin}${PATHS.orders}`} className={classes.link}>
           Перейти в админку
         </Link>
-
-        <a
-          href={'https://github.com/rizametovd/e-commerce-react-app'}
-          className={classes.link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Перейти в репозиторий
-        </a>
       </div>
 
       <div className={classes['wrapper']}>
