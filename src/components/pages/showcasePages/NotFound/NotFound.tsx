@@ -20,15 +20,6 @@ const NotFound: React.FC = () => {
             <Link to={`${PATHS.admin}${PATHS.orders}`} className={classes.link}>
               В админку
             </Link>
-
-            <a
-              href={'https://github.com/rizametovd/e-commerce-react-app'}
-              className={classes.link}
-              target="_blank"
-              rel="noreferrer"
-            >
-              В репозиторий
-            </a>
           </div>
         </div>
       </div>
