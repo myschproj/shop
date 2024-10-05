@@ -35,6 +35,12 @@ const ShowcaseHeader: React.FC<IShowcaseHeaderProps> = () => {
           <div className={classes['badge-wrapper']}>
             <Badge
               icon={<FavoriteIcon width={24} height={24} />}
+              to={'https://misterhype.vercel.app'}
+              count={wishlist?.length}
+              title={'Наш блог'}
+            />
+            <Badge
+              icon={<FavoriteIcon width={24} height={24} />}
               to={PATHS.wishlist}
               count={wishlist?.length}
               title={'Избранное'}
