@@ -52,7 +52,7 @@ const initialState: ProductState = {
   },
 };
 
-const BASE_URL = 'https://e-commerce-65446-default-rtdb.firebaseio.com';
+const BASE_URL = 'https://shoppyshopp-97658-default-rtdb.firebaseio.com/';
 
 export const fetchProducts = createAsyncThunk<Product[], void, { state: RootState }>(
   'product/fetchProducts',
