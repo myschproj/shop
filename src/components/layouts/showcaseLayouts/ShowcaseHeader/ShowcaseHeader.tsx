@@ -32,11 +32,10 @@ const ShowcaseHeader: React.FC<IShowcaseHeaderProps> = () => {
         <div className={classes['actions-wrapper']}>
           <Menu categories={categories} />
 
-          <div className={classes['badge-wrapper']}>
             <Link href="https://misterhype.vercel.app/posts" replace>
               Наш блог
             </Link>
-            
+          <div className={classes['badge-wrapper']}>
             <Badge
               icon={<FavoriteIcon width={24} height={24} />}
               to={PATHS.wishlist}
