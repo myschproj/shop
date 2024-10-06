@@ -29,10 +29,6 @@ const CheckoutSuccessPage: React.FC = () => {
         <div className={classes['checkout-success']}>
           <span className={classes.title}>Заказ оформлен</span>
           <span className={classes.subtitle}>Вы будете перенаправлены на главную страницу через {counter} секунд</span>
-
-          <Link to={`${PATHS.admin}${PATHS.orders}`} className={classes.link}>
-            Перейти в админку
-          </Link>
         </div>
       </SectionBody>
     </Section>
