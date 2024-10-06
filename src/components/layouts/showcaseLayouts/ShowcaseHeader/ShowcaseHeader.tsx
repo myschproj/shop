@@ -20,6 +20,10 @@ const ShowcaseHeader: React.FC<IShowcaseHeaderProps> = () => {
     <header className={classes.header}>
       <div className={classes['admin-link-wrapper']}>
         <Link to={`${PATHS.admin}${PATHS.orders}`} className={classes.link}>
+          Наш блог
+        </Link>
+        
+        <Link to={`${PATHS.admin}${PATHS.orders}`} className={classes.link}>
           Перейти в админку
         </Link>
       </div>
@@ -31,10 +35,7 @@ const ShowcaseHeader: React.FC<IShowcaseHeaderProps> = () => {
 
         <div className={classes['actions-wrapper']}>
           <Menu categories={categories} />
-
-            <Link href="https://misterhype.vercel.app/posts" replace>
-              Наш блог
-            </Link>
+          
           <div className={classes['badge-wrapper']}>
             <Badge
               icon={<FavoriteIcon width={24} height={24} />}
