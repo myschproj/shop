@@ -17,9 +17,6 @@ const NotFound: React.FC = () => {
             <Link to={PATHS.showcase} className={classes.link}>
               На главную
             </Link>
-            <Link to={`${PATHS.admin}${PATHS.orders}`} className={classes.link}>
-              В админку
-            </Link>
           </div>
         </div>
       </div>
